@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <title>Sharda Realty</title>
+    <meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Barlow:400,600%7COpen+Sans:400,400i,700' rel='stylesheet'>
+
+<!-- Css -->
+
+<link rel="stylesheet" href="../frontAsset/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../frontAsset/css/font-icons.css" />
+<!-- <link rel="stylesheet" href="http://shardarealty.in/../frontAsset/css/lightbox.min.css" /> -->
+<link rel="stylesheet" href="../frontAsset/revolution/css/settings.css" />
+<link rel="stylesheet" href="../frontAsset/css/lightgallery.css" />
+<link rel="stylesheet" href="../frontAsset/css/style.css" />
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="../frontAsset/img/favicon.png">
+<!--Toaster css-->
+<link rel="stylesheet" href="../css/toastr.min.css" />
+    <style type="text/css">
+    .error{
+        color:#C84527;
+    }
+    select.error{
+    	color: black;
+    }
+</style>
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '274803323994330'); 
+fbq('track', 'PageView');
+fbq('track', 'Contact');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=274803323994330&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+    </head>
+<body>
+    <!-- Preloader -->
+    <div class="loader-mask">
+        <div class="loader">
+            "Loading..."
+        </div>
+    </div>
+
+    <main class="main-wrapper">
+        <!-- Top Bar -->
+<div class="top-bar top-bar--transparent d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6 text-right">
+                <div class="top-bar__item">
+                    <i class="top-bar__icon ui-phone"></i>
+                    <a href="tel:+91 97 2705 1515" class="top-bar__phone-number">+91 97 2705 1515</a>
+                </div>
+                <div class="top-bar__item">
+                    <i class="top-bar__icon ui-email"></i>
+                    <a href="mailto:info@shardarealty.in" class="top-bar__email">info@shardarealty.in</a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6">
+                <div class="top-bar__socials top-bar__item top-bar__item--align-right">
+                    <div class="socials socials--white">
+                        <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i class="ui-twitter"></i></a>
+                        <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
+                        <a href="#" class="social social-youtube" aria-label="youtube" title="google plus" target="_blank"><i class="ui-youtube"></i></a>
+                        <a href="#" class="social social-instagram" aria-label="instagram" title="instagram" target="_blank"><i class="ui-instagram"></i></a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>          
+</div> <!-- end top bar -->
+
+<!-- Navigation -->
+<header class="nav nav--boxed">
+    <div class="nav__holder nav--sticky">
+        <div class="nav__container container">
+            <div class="nav__container-box">
+                <div class="flex-parent">
+
+
+                    <div class="nav__header">
+                        <!-- Logo -->
+                        <a href="../index.html" class="logo-container flex-child">
+                            <img class="logo" src="../frontAsset/img/logo.svg">
+                        </a>
+
+                        <!-- Mobile toggle -->
+                        <button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="nav__icon-toggle-bar"></span>
+                            <span class="nav__icon-toggle-bar"></span>
+                            <span class="nav__icon-toggle-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Navbar -->
+                    <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse">
+                        <ul class="nav__menu">
+                        <!-- <li class="">
+                            <a href="index.php" aria-haspopup="true">Home</a>
+                        </li> -->
+                        <li class="">
+                            <a href="../about-us.html" aria-haspopup="true">About</a>
+                        </li>
+                        <li class="">
+                            <a href="../current.html" aria-haspopup="true">Current Projects</a>
+                        </li>
+                        <li class="">
+                            <a href="../upcoming.html" aria-haspopup="true">Upcoming Projects</a>
+                        </li>
+                        <li class="">
+                            <a href="../past.html" aria-haspopup="true">Past Projects</a>
+                        </li>
+                        <li class="nav__dropdown">
+                            <a href="#" aria-haspopup="true">Rental Properties</a>
+                            <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false"></i>
+                            <ul class="nav__dropdown-menu">
+                                <li><a href="residential.html">Residential</a></li>
+                                <li><a href="commercial.html">Commercial</a></li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="../contact-us.html" aria-haspopup="true">Contact</a>
+                        </li>
+                    </ul> <!-- end menu -->
+
+                        
+
+                        <!-- Mobile Phone -->
+                        <div class="nav__phone nav__phone--mobile d-lg-none">
+                            <span class="nav__phone-text">Call us:</span>
+                            <a href="tel:+91 97 2705 1515" class="nav__phone-number">+91 97 2705 1515</a>
+                        </div>                          
+
+                        <!-- Mobile Email -->
+                        <div class="nav__email nav__email--mobile d-lg-none">
+                            <span class="nav__email-text">Email us:</span>
+                            <a href="mailto:info@shardarealty.in" class="nav__email-email">info@shardarealty.in</a>
+                        </div>
+
+                        <!-- Mobile Socials -->
+                        <!-- <div class="nav__socials nav__socials--mobile d-lg-none">
+                            <div class="socials">
+                                <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i class="ui-twitter"></i></a>
+                                <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
+                                <a href="#" class="social social-youtube" aria-label="youtube" title="google plus" target="_blank"><i class="ui-youtube"></i></a>
+                                <a href="#" class="social social-instagram" aria-label="instagram" title="instagram" target="_blank"><i class="ui-instagram"></i></a>
+                            </div>
+                        </div> -->
+                    </nav> <!-- end nav-wrap -->
+
+                    
+
+                </div> <!-- end flex-parent -->
+            </div> <!-- end nav container box -->
+        </div> <!-- end container -->
+
+    </div>
+</header> <!-- end navigation -->        <div class="content-wrapper oh">
+                <!-- Page Title -->
+    <section class="page-title bg-dark-overlay text-center" style="background-image: url(../frontAsset/img/page-title/contact.jpg);">
+        <div class="container">
+            <div class="page-title__holder">
+                <h1 class="page-title__title">Residential</h1>
+            </div>
+        </div>
+    </section>
+    <!-- end page title -->
+    <!-- Contact -->
+    <section class="section-wrap">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h2 class="section-title text-center">Inquiry for Residential</h2>
+                <p class="mb-40 text-center">If you have any question about residential, get in touch.</p>
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form material" method="post" action="http://shardarealty.in/inquiry">
+                	<input type="hidden" name="_token" value="Dc53fiK98VzUggutOcbX1pMceFLVmzc80RNq7xJu">
+                	<input type="hidden" name="inquiry_type" value="residential">
+	                <div class="row">
+	                    <div class="col-lg-6">
+	                        <!-- Name -->
+	                        <div class="material__form-group form-group">
+	                            <input type="text" name="name" id="name" class="form-input material__input" required="">
+	                            <label for="name" class="material__label">Name
+	                                
+	                            </label>
+	                            <span class="material__underline"></span>
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-6">
+	                        <!-- Email -->
+	                        <div class="material__form-group form-group">
+	                            <input type="email" name="email" id="email" class="form-input material__input" required="">
+	                            <label for="email" class="material__label">Email
+	                                
+	                            </label>
+	                            <span class="material__underline"></span>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col-lg-6">
+			                <!-- Subject -->
+			                <div class="material__form-group form-group">
+			                    <input type="text" name="phone_number" id="phone_number" class="form-input material__input">
+			                    <label for="phone_number" class="material__label">Phone Number
+			                    	
+			                    </label>
+			                    <span class="material__underline"></span>
+			                </div> 
+			            </div>
+			            <div class="col-lg-6">
+			                <!-- Subject -->
+			                <div class="material__form-group form-group">
+    							<select class="form-input material__input" id="area_select" name="area"><option value="0">Select BHK Type</option><option value="1 BHK">1 BHK</option><option value="2 BHK">2 BHK</option><option value="3 BHK">3 BHK</option><option value="4 BHK">4 BHK</option><option value="5 BHK">5 BHK</option></select>
+    							<label for="area" class="material__label">Select BHK Type
+    								
+			                    </label>
+    							<span class="material__underline"></span>
+			                </div> 
+			            </div>
+			        </div>                         
+
+	                <div class="material__form-group form-group">
+	                    <textarea id="message" name="message" rows="7" class="form-input material__input" required=""></textarea>
+	                    <label for="message" class="material__label">Message
+	                        
+	                    </label>
+	                    <span class="material__underline"></span>
+	                </div>                              
+
+	                <input type="submit" class="btn btn--lg btn--color btn--button" value="Send Message" id="submit-message">
+	                <div id="msg" class="message"></div>
+                </form>
+            </div>
+          </div>
+        </div>
+    </section> <!-- end contact -->
+            <!-- Footer -->
+<footer class="footer bg-dark-overlay" style="background-image: url(../frontAsset/img/footer/1.jpg);">
+    <div class="container-fluid">
+        <div class="footer__widgets">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="widget widget-about-us mb-20">
+                        <!-- Logo -->
+                        <a href="../index.html" class="logo-container flex-child">
+                            <img class="logo" src="../frontAsset/img/logo.svg" alt="logo">
+                        </a>                        
+                        <p class="w-80">Sharda Realty is a proprietorship firm and an important part of Gujarat’s Real Estate component, founded by Deepak Nimbark in 2010 after the restructuring of Vishwanath Group.</p>
+                    </div>
+
+                    <div class="widget">
+                        <div class="contact">
+                            <a href="tel:+91 97 2705 1515"><i class="ui-phone"></i>+91 97 2705 1515</a>
+                            <a href="mailto:info@shardarealty.in"><i class="ui-email"></i>info@shardarealty.in</a>
+                        </div>
+                        <a href="https://www.facebook.com/shardarealty" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/sharda-realty" class="social social-linkedin" aria-label="linkedin" title="linkedin" target="_blank"><i class="ui-linkedin"></i></a>
+                            <a href="https://www.instagram.com/shardarealty" class="social social-instagram" aria-label="instagram" title="instagram" target="_blank"><i class="ui-instagram"></i></a>
+                    </div>
+                </div> <!-- end logo -->
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="widget widget_nav_menu">
+                        <h3 class="ftr-header">Quick Links</h3>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about-us.html">About</a></li>
+                            <li><a href="../contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-3">
+                    <div class="widget widget_nav_menu">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="widget widget_nav_menu">
+                        <h3 class="ftr-header">Projects</h3>
+                        <ul>
+                            <li><a href="../upcoming.html">Upcoming Projects</a></li>
+                            <li><a href="../current.html">Current Projects</a></li>
+                            <li><a href="../past.html">Past Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- end container -->
+
+    <div class="footer__bottom">
+        <div class="container-fluid text-center text-md-center">
+            <span class="copyright">
+                &copy; 2020 Sharda Realty, Proudly Created by <a href="https://buzzcloudmedia.com/">Buzz Cloud Media.</a>
+            </span>
+        </div>
+    </div> <!-- end footer bottom -->
+</footer> <!-- end footer -->
+
+<div id="back-to-top">
+    <a href="#top"><i class="ui-arrow-up"></i></a>
+</div>
+
+<!-- jQuery Scripts -->
+<script src="../frontAsset/js/jquery.min.js"></script>
+<script src="../frontAsset/js/bootstrap.min.js"></script>
+<!-- <script src="http://shardarealty.in/../frontAsset/js/lightbox-plus-jquery.min.js"></script> -->
+<script src="../frontAsset/js/lightgallery.js"></script>
+<script src="../frontAsset/js/lg-fullscreen.js"></script>
+<script src="../frontAsset/js/lg-zoom.js"></script>
+ <script>
+            lightGallery(document.getElementById('lightgallery'));
+        </script>
+        <script>
+            lightGallery(document.getElementById('lightgallery1'));
+        </script>
+<script src="../frontAsset/js/plugins.js"></script>
+<script src="../frontAsset/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="../frontAsset/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="../frontAsset/js/rev-slider.js"></script>
+<script src="../frontAsset/js/scripts.js"></script>
+
+<!-- Rev Slider Offline Scripts -->
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="../frontAsset/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+<!--Toaster JS-->
+<script src="../js/toastr.min.js"></script>
+<script type="text/javascript">
+    </script>
+<!--Validation JS-->
+<script src="../js/jquery.validate.min.js"></script>
+<script src="../js/additional-methods.min.js"></script>        </div> <!-- end content wrapper -->
+    </main> <!-- end main wrapper -->
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#contact-form').validate({ // initialize the plugin
+            rules: {
+                name: {
+                    required: true,
+                    lettersonly: true 
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone_number: {
+                    required: true,
+                    digits: true                   
+                },
+                area: {
+                	required: {
+		                depends: function(element){
+		                    if('0' == $('#area_select').val()){
+		                        //Set predefined value to blank.
+		                        $('#area_select').val('');
+		                    }
+		                    return true;
+		                }
+		            }
+                },
+                message: {
+                    required: true,
+                    minlength: 30,
+                    maxlength: 1000,
+                },
+            },
+            messages: {
+                name: {
+                    required: "Please enter your name",
+                    lettersonly: "Please enter valid name"
+                },
+                email: {
+                    required: "Please enter email address",
+                    email: "Please enter valid email address"
+                },
+                phone_number: {
+                    required: "Please enter Phone Number",
+                    digits: "Please enter only digits"
+                },
+                area: {
+                	required: "Please select area for inquiry",
+                },
+                message: {
+                    required: "Please write something..",
+                    minlength: "Please enter minimum 30 characters",
+                    maxlength: "You can not write more then 1000 character"
+                },
+            }
+        });
+    });
+</script>
+<script>
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+
+$(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+</script>
+<script>
+document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+return false;
+}
+}
+</script></body>
+
+</html>
